@@ -1,5 +1,7 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 const Landing = () => {
   return (
@@ -7,8 +9,9 @@ const Landing = () => {
       <div className="">
         <Hero />
         <About />
+        <Testimonials />
+        <Footer />
       </div>
-      \
     </>
   );
 };

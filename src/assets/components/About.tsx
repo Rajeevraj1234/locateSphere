@@ -12,6 +12,7 @@ const About = () => {
             initial={{ y: 50 ,  opacity:0}}
             whileInView={{ y: 0 , opacity:1 }}
             transition={{ type: "spring" , duration:2 , delay:0.5 }}
+            viewport={{ once: true}}
             className="w-[600px] text-center"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum

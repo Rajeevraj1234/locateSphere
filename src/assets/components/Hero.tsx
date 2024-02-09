@@ -27,7 +27,7 @@ const Hero = () => {
             alt=""
           />
           <img
-            className="h-[700px] translate-y-20 absolute hover:opacity-75  transition-opacity"
+            className="h-[700px] translate-y-20 absolute "
             src="images/hero2.jpg"
             alt=""
           />

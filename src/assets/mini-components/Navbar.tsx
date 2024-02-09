@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
           <ul className="flex gap-10 text-xl">
             <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Home</li>
-            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">About</li>
+            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Login</li>
             <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Contact</li>
           </ul>
         </div>

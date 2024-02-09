@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Landing from "./assets/Pages/Landing";
 import Navbar from "./assets/mini-components/Navbar";
 
+
 function App() {
   return (
     <>
