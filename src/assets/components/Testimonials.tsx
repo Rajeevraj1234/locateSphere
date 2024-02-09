@@ -4,9 +4,16 @@ import {motion} from "framer-motion"
 
 const Testimonials = () => {
   return (
-    <div className="h-full pt-20 xl:w-[1905px] bg-[#EAE7DD]  pb-[9rem]">
+    <div 
+    data-scroll
+    data-scroll-speed="-0.1"
+    className="h-full pt-20 xl:w-[1905px] bg-[#EAE7DD]  pb-[9rem]">
       <div>
-        <h1 className="text-center text-[9rem] font-semibold text-[#594434] tracking-widest mb-[9rem] font-heading">
+        <h1 
+        data-scroll
+        data-scroll-section
+        data-scroll-speed="0.2"
+        className="text-center text-[9rem] font-semibold text-[#594434] tracking-widest mb-[7rem] font-heading">
           TESTIMONIALS
         </h1>
         <div className=" flex justify-center items-center gap-10 w-full px-20 ">

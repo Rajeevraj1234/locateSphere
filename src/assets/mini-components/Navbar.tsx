@@ -4,10 +4,10 @@ const Navbar = () => {
       <div className="flex justify-between h-full w-full items-center">
         <div className="font-heading text-3xl tracking-tighter ">.locateSphere</div>
         <div>
-          <ul className="flex gap-10 text-xl">
-            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Home</li>
-            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Login</li>
-            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 font-bold">Contact</li>
+          <ul className="flex gap-5 text-xl">
+            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 ">Home</li>
+            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 ">Contact</li>
+            <li className="hover:bg-green-900 transition-opacity cursor-pointer mix-blend-multiply hover:text-white  px-10 py-3 ">Login</li>
           </ul>
         </div>
       </div>

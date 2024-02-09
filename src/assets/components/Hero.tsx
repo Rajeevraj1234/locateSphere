@@ -36,7 +36,8 @@ const Hero = () => {
           <span className="font-bold  text-white text-md ">FIND ITEM </span>
         </div>
       </div>
-      <div className="bg-[#EAE7DD] w-full h-[900px] ">
+      <div 
+      className="bg-[#EAE7DD] w-full h-[900px] ">
         <div className="pt-[60px] w-[60%]  flex justify-end items-end z-[2] relative ">
           <h1 className="text-[10rem] font-heading font-bold text-[#594434] ">
             FOUND !! <br /> LOST ITEM

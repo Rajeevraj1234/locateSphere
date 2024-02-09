@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="h-full pt-20  xl:h-[840px] xl:w-[1905px] bg-[#EAE7DD]">
+    <div className="h-full pt-20  xl:h-[840px] xl:w-[1905px] bg-[#221f15]">
       <div>
-        <h1 className="text-center text-[9rem] font-semibold text-[#594434] tracking-widest mb-20 font-heading">
+        <h1 className="text-center text-[9rem] font-semibold text-[#e0ad86] tracking-widest mb-20 font-heading">
           ABOUT
         </h1>
         <div className="flex justify-center items-center w-full">
@@ -13,7 +13,7 @@ const About = () => {
             whileInView={{ y: 0 , opacity:1 }}
             transition={{ type: "spring" , duration:2 , delay:0.5 }}
             viewport={{ once: true}}
-            className="w-[600px] text-center"
+            className="w-[600px] text-center text-white"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
             voluptatibus, architecto, sed quaerat impedit ratione fuga, quasi
